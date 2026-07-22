@@ -1,8 +1,12 @@
 const menuToggle =document.getElementById("menuToggle");
 
 const navLinks =document.getElementById("navLinks");
-menuToggle.addEventListener("click", function() {
+ 
+const navActions = document.querySelector(".nav-actions");
+
+menuToggle.addEventListener("click",function (){
     navLinks.classList.toggle("show");
+    navActions.classList.toggle("show");
 })
 
 const fadeElements =document.querySelectorAll(".fade-in");
