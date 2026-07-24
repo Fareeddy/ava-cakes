@@ -453,8 +453,9 @@ margin-bottom: 20px;
 
 @media (max-width:768px){
 .navbar{
-    flex-direction: column;
-    gap: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav-links{
