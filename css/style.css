@@ -511,8 +511,12 @@ cta p{
     .nav-links.show, .nav-actions.show{
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        align-items: center;
+        width: 100%;
         margin-top: 20px;
+    }
+    .navbar{
+        flex-wrap: wrap;
     }
 }
 
@@ -564,4 +568,19 @@ cta p{
     50%{
         transform: translateY(-15px)
     }
+}
+.shop-hero{
+    padding: 120px 10%;
+    text-align: center;
+    background: #fff8f8;
+}
+.shop-hero h1{
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.shop-hero p{
+    font-size: 1.1rem;
+    color: #666;
 }
